@@ -7,6 +7,8 @@ def my_find?(collection)
     if yield(collection[index])
       return collection[index]
     end
+    
+    
     index += 1
   end
 end
