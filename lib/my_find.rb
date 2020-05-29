@@ -8,7 +8,7 @@ def my_find?(collection)
       return collection[index]
     end
     
-    
+    return 
     index += 1
   end
 end
